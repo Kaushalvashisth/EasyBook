@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="icon" href="assets/favicon.ico">
+
+  <title>EasyBook</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+
+  <script src="https://kit.fontawesome.com/4955124e8b.js"></script>
+  <!-- Custom styles for this template -->
+  <link href="index.css" rel="stylesheet">
+</head>
+
+<body class="text-center">
+  <div id="poster" class="masthead">
+    <div class="container text-left">
+      <div id="manual-text" class="row">
+        <div class="d-none d-md-block col-md-12">
+          <h1 id="txt1"  class="display-4">info</h1>
+          <h1 id="txt2" class="display-3">tickets</h1>
+          <h1 id="txt3" class="display-3">movies</h1>
+          <h1 id="txt4" class="display-2">search</h1>
+          <h1 id="txt5" class="display-2"><i class="fas fa-check-double">.</i>EasyBook</h1>
+        </div>        
+      </div>
+      <!-- <div id="arrows">
+        <h1 id="arr1"class="display-4">\/</h1>
+        <h1 id="arr2"class="display-4">\/</h1>
+        <h1 id="arr2"class="display-4">\/</h1>
+      </div> -->
+      <div class="button" id="button-5">
+          <div id="translate"></div>
+            <a>Let's Go!</a>
+          </div>
+      </div>
+  </div>
+  <!-- login -->
+  <section id="login" class="login">
+    <div  class="body  pt-4">
+      <form id="login-form" class="form-signin">
+        <h1 class="display-4 mb-4 themecolor"><i class="fas fa-check-double">.</i></h1>
+        <h1 class="h3 mb-3 font-weight-normal"><b>EasyBook</b></h1>
+        <label for="inputEmail" class="sr-only">Username</label>
+        <input type="text" id="inputEmail" class="form-control top" placeholder="Username" required autofocus>
+        <label for="inputPassword" class="sr-only">Password</label>
+        <input type="password" id="inputPassword" class="form-control bottom" placeholder="Password" required>
+        <button type="submit" class="btn btn-lg btn-outline-success" href="#">Sign In</button>
+        <button id="go-to-reg" class="btn btn-lg btn-outline-danger " type="button">NEW USER ?</button>
+        <div id="invalid-input" class="container">
+          <!--invalid password section-->
+        </div>
+        <p class="mt-5 mb-3 text-muted">&copy;</i>EasyBook</p>
+      </form>
+    </div>
+  </section>
+
+  <section id="register" class="register">
+    <div  class="body">
+      <form id="register-form" class="form-signin">
+        <h1 class="display-4 mb-4 themecolor"><i class="fas fa-check-double">.</i></h1>
+        <h1 class="h3 mb-3 font-weight-normal"><b>EasyBook</b></h1>
+
+        <label for="name" class="sr-only">UserName</label>
+        <input type="text" id="name" class="form-control top" placeholder="Username"  minlength="6" required autofocus>
+
+        <label for="inputEmail2" class="sr-only">Email address</label>
+        <input type="email" id="inputEmail2" class="form-control middle" placeholder="Email address" required >
+
+        <label for="inputPassword2" class="sr-only">Enter Password</label>
+        <input type="password" id="inputPassword2" class="form-control bottom" placeholder="Password" pattern=".{8,12}" title="Password should be 8-12 characters" required>
+
+        <button id="register-button" class="btn btn-lg btn-outline-success"
+          type="submit">Register</button>
+        <button id="go-to-login" class="btn btn-lg btn-outline-danger" type="button">Go to Login</button>
+        <div id="success-reg">
+
+        </div>
+        <p class="mt-5 mb-3 text-muted">&copy;</i>EasyBook</p>
+      </form>
+    </div>
+  </section>
+  <script src="https://code.jquery.com/jquery-3.5.0.js" integrity="sha256-r/AaFHrszJtwpe+tHyNi/XCfMxYpbsRg2Uqn0x3s2zc="
+    crossorigin="anonymous"></script>
+  <!-- <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script> -->
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous">
+  </script>
+  <script src="config.js"></script>
+  <script src="js/index.js"></script>
+</body>
+
+</html>
+
+
+<!-- 
+        <p class="blockquote-footer pl-5"><b>${movie.Year}</b>&ensp;.&ensp;<b>${movie.Genre}</b>  &ensp;.&ensp;  <b>${movie.Runtime}</b></p>
+
+ -->
