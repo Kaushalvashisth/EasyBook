@@ -19,6 +19,7 @@
 </head>
 
 <body class="text-center">
+  
   <div id="poster" class="masthead">
     <div class="container text-left">
       <div id="manual-text" class="row">
@@ -44,11 +45,11 @@
   <!-- login -->
   <section id="login" class="login">
     <div  class="body  pt-4">
-      <form id="login-form" class="form-signin">
+      <form id="login-form" class="form-signin" autocomplete="off">
         <h1 class="display-4 mb-4 themecolor"><i class="fas fa-check-double">.</i></h1>
         <h1 class="h3 mb-3 font-weight-normal"><b>EasyBook</b></h1>
         <label for="inputEmail" class="sr-only">Username</label>
-        <input type="text" id="inputEmail" class="form-control top" placeholder="Username" required autofocus>
+        <input type="text" id="inputEmail" class="form-control top active" placeholder="Username" required autofocus >
         <label for="inputPassword" class="sr-only">Password</label>
         <input type="password" id="inputPassword" class="form-control bottom" placeholder="Password" required>
         <button type="submit" class="btn btn-lg btn-outline-success" href="#">Sign In</button>
@@ -60,15 +61,16 @@
       </form>
     </div>
   </section>
+  
 
   <section id="register" class="register">
     <div  class="body">
-      <form id="register-form" class="form-signin">
+      <form id="register-form" class="form-signin" autocomplete="off">
         <h1 class="display-4 mb-4 themecolor"><i class="fas fa-check-double">.</i></h1>
         <h1 class="h3 mb-3 font-weight-normal"><b>EasyBook</b></h1>
 
         <label for="name" class="sr-only">UserName</label>
-        <input type="text" id="name" class="form-control top" placeholder="Username"  minlength="6" required autofocus>
+        <input type="text" id="name" class="form-control top" placeholder="Username"  minlength="6" required>
 
         <label for="inputEmail2" class="sr-only">Email address</label>
         <input type="email" id="inputEmail2" class="form-control middle" placeholder="Email address" required >

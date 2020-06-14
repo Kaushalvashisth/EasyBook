@@ -202,7 +202,7 @@
         <div id="ticket-info" class="alert alert-success">
 
         </div>
-        <form id="paymentForm" action="/" method="GET" role="form">
+        <form id="paymentForm" action="/" method="GET" role="form" autocomplete="off">
           <div class="form-group">
             <label for="username">Full name (on the card)</label>
             <input type="text" class="form-control" id="username" placeholder="" required>
@@ -288,7 +288,9 @@
         <hr>
         <div id="pnrShow">
         </div>
-        <div id="qrcode" class="d-flex justify-content-center mb-3"></div>
+        <div id="qrcode" class="d-flex justify-content-center mb-3">
+          
+        </div>
         <div class="">
           <button  class="btn btn-danger btn-lg mr-5" id="downloadTicket" type="button">
             <svg class="bi bi-box-arrow-in-down" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
