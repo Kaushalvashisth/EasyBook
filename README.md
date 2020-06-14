@@ -28,7 +28,7 @@ Description :
 
 + E-Ticket( .pdf ):
   
-  ![alt text](/screenshots/ticket.PNG "E-Ticket")
+  ![alt text](/screenshots/ticket.gif "E-Ticket")
 
 + Cancel Ticket :
 
