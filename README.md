@@ -5,7 +5,7 @@ Description :
 ==========
 + Landing Page :
   
-  ![alt text](/screenshots/landing_page.gif "Landing Page")
+  ![alt text](/screenshots/opening_page.gif "Landing Page")
 + Register :
   
   ![alt text](/screenshots/register.gif "Register")
